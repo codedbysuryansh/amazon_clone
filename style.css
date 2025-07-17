@@ -3,6 +3,10 @@
     padding: 0;
     font-family: Arial;
     border: border-box;
+    a:link, a:visited, a:hover, a:active {
+                                            color: white;
+                                            text-decoration: none;
+                                         }
 }
 
 .navbar{
@@ -46,7 +50,7 @@
 
 .add-sec{
     color:#ffffff;
-    cont-size: 1rem;
+    font-size: 1rem;
     margin-left:3px;
     font-weight: 600;
 }
@@ -155,9 +159,19 @@ span{
     color: white;
 }
 
+.panel a{
+    text-decoration: none;
+    color:white;
+}
+
 .panel-ops p{
     display:inline;
     margin-left: 15px;
+}
+
+.panel-ops a{
+    text-decoration: none;
+    color:inherit;
 }
 
 .panel-ops {
@@ -168,6 +182,11 @@ span{
 .panel-deals{
     font-size: 0.9 rem;
     font-weight: 700;
+}
+
+.panel-deals a{
+    text-decoration: none;
+    color:inherit;
 }
 
 /* hero-section */
@@ -237,12 +256,13 @@ footer{
 
 .foot-panel1{
     background-color: #37475A;
-    color: white;
+    color:white;
     height: 50px;
     display:flex;
     justify-content: center;
     align-items: center;
     font-size: 0.85rem;
+    text-decoration: none;
 }
 
 .foot-panel2{
